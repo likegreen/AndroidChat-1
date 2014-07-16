@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+            android:id="@+id/register_username"
+            android:layout_width="fill_parent"
+            android:hint="Enter username:"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_margin="10dp">
+    </LinearLayout>
+
+    <EditText
+            android:id="@+id/register_password"
+            android:layout_width="fill_parent"
+            android:hint="Enter password:"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_margin="10dp">
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/button_register"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Register new user"
+            android:layout_margin="10dp" >
+    </Button>
+
+    <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="fill_parent"
+            android:text="'The username and the password must not contain the logical 'and' character or '%' character'"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

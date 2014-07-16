@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_margin="10dp">
+    </LinearLayout>
+    
+    <EditText 
+        android:id="@+id/user_name"
+        android:hint="Username: "
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="10dp"
+        />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_margin="10dp">
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+		android:layout_margin="10dp"
+		android:hint="Password: " >
+    </EditText>
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_margin="10dp">
+    </LinearLayout>
+    
+    <Button 
+         android:id="@+id/button_login"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Login"
+         android:layout_margin="10dp" >
+    </Button>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_margin="10dp">
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/button_register_activity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_margin="10dp" >
+    </Button>
+
+</LinearLayout>
